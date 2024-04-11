@@ -1,1 +1,45 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.hero {
+  height: 20vh;
+  margin-top: 16vh;
+}
+.hero h1 {
+  color: wheat;
+  font-size: 3em;
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+main ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+main ul li {
+  font-size: 2em;
+}
+main ul li:nth-child(1) {
+  color: rgb(157, 119, 48);
+  background-color: #51300b;
+}
+main ul li:nth-child(2) {
+  color: rgb(40, 114, 53);
+  background-color: #ffffff;
+}
+main ul li:nth-child(3) {
+  color: rgb(159, 92, 15);
+  background-color: #a9c586;
+}/*# sourceMappingURL=style.css.map */
