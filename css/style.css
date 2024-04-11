@@ -10,10 +10,11 @@ body {
 .hero h1 {
   color: wheat;
   font-size: 3em;
+  margin-left: 2vw;
 }
 .hero img {
   width: 100%;
-  height: 100%;
+  height: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
@@ -21,6 +22,9 @@ body {
   z-index: -1;
 }
 
+main {
+  margin-top: 14vh;
+}
 main ul {
   display: flex;
   justify-content: space-evenly;
@@ -30,6 +34,8 @@ main ul {
 }
 main ul li {
   font-size: 2em;
+  flex-grow: 1;
+  text-align: center;
 }
 main ul li:nth-child(1) {
   color: rgb(157, 119, 48);

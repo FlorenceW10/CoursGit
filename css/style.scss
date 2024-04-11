@@ -10,11 +10,12 @@ body {
     h1 {
         color: wheat;
         font-size: 3em;
+        margin-left: 2vw;
     }
 
     img {
         width: 100%;
-        height: 100%;
+        height: 50%;
         object-fit: cover;
         position: absolute;
         top: 0;
@@ -23,6 +24,8 @@ body {
 }
 
 main {
+    margin-top: 14vh;
+
     ul {
         display: flex;
         justify-content: space-evenly;
@@ -32,6 +35,8 @@ main {
 
         li {
             font-size: 2em;
+            flex-grow: 1;
+            text-align: center;
 
             &:nth-child(1) {
                 color: rgb(157, 119, 48);
